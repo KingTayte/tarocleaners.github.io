@@ -1,0 +1,19 @@
+body{
+    margin: auto;
+}
+
+.nav-item a:hover{
+    background-color: green;
+}
+
+.nav-item{
+    padding-left: 200px;
+}
+
+.section1_heading{
+    text-align: center;
+}
+
+.paragraph1{
+    text-align: center;
+}
