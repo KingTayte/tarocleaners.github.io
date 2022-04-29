@@ -1,5 +1,9 @@
 body{
     margin: auto;
+    background-image: url("vacuum-cleaner-268179.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .nav-item a:hover{
@@ -17,3 +21,54 @@ body{
 .paragraph1{
     text-align: center;
 }
+
+.section1{
+    
+}
+
+.section1_heading{
+    color: aliceblue;
+    font-size: 80px;
+    padding-top: 90px;
+}
+
+.paragraph1{
+    color: aliceblue;
+    font-size: 50px;
+}
+
+.services{
+    border-style: solid;
+    background-color: greenyellow;
+    color: white;
+    opacity: 0.6;
+}
+
+p{
+    color: white;
+}
+
+.column{
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    float: left;
+    margin-top: 100px;
+    margin-left: 150px;
+    background-color: green;
+    opacity: 0.8;
+    color: aliceblue;
+}
+
+.column2{
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    float: right;
+    margin-top: 100px;
+    margin-right: 150px;
+    color: aliceblue;
+    background-color: green;
+    opacity: 0.8;
+}
+
