@@ -1,9 +1,5 @@
 body{
     margin: auto;
-    background-image: url("vacuum-cleaner-268179.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
 }
 
 .nav-item a:hover{
@@ -23,7 +19,12 @@ body{
 }
 
 .section1{
-    
+    background-image: url("vacuum-cleaner-268179.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 150px;
+    border-bottom: solid;
 }
 
 .section1_heading{
@@ -72,3 +73,7 @@ p{
     opacity: 0.8;
 }
 
+.mb-3{
+    margin-left: 150px;
+    margin-right: 150px;
+}
