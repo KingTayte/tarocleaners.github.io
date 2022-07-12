@@ -1,6 +1,128 @@
-body{
-    margin: auto;
+body, html {
+  height: 100%;
 }
+.bg {
+  /* The image used */
+  background-image: url("pexels-pixabay-48889.jpg");
+
+  /* Half height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: solid;
+}
+
+h1, h2{
+    color: white;
+}
+
+.heading{
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.section2{
+    text-align: center;
+    border-top: solid;
+}
+/*
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .section2{
+    margin-top: 10%;
+    text-align: center;
+    border-top: solid;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 375px) {
+    .section2{
+    margin-top: 50%;
+    text-align: center;
+    border-top: solid;
+}
+}
+
+@media only screen and (min-width: 390px) {
+    .section2{
+    margin-top: 65%;
+    text-align: center;
+    border-top: solid;
+}
+}
+
+@media only screen and (min-width: 360px) {
+    .section2{
+    margin-top: 55%;
+    text-align: center;
+    border-top: solid;
+}
+}
+
+@media only screen and (min-width: 412px) {
+    .section2{
+    margin-top: 80%;
+    text-align: center;
+    border-top: solid;
+}
+}
+
+@media only screen and (min-width: 820px) {
+    .section2{
+    margin-top: 100%;
+    text-align: center;
+    border-top: solid;
+}
+}
+
+@media only screen and (min-width: 414px) {
+    .section2{
+    margin-top: 80%;
+    text-align: center;
+    border-top: solid;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .section2{
+    margin-top: 50%;
+    text-align: center;
+    border-top: solid;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .section2{
+    margin-top: 10%;
+    text-align: center;
+    border-top: solid;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .section2{
+    margin-top: 10%;
+    text-align: center;
+    border-top: solid;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1280px) {
+    .section2{
+    margin-top: 30%;
+    text-align: center;
+    border-top: solid;
+}
+}
+*/
 
 .nav-item a:hover{
     background-color: green;
@@ -77,3 +199,4 @@ p{
     margin-left: 150px;
     margin-right: 150px;
 }
+
